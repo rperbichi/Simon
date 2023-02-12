@@ -25,11 +25,11 @@
                 <span class = "player-name">Mystery player</span>
             </div>
 
-            <br /> <!-- This line adds a blank line.-->
+            <br /> <!-- This element adds a blank line.-->
 
             <div>
                 <label for = "count">Score</label>
-                <input type = "text" id =" count" value = "--" readonly />
+                <input type = "text" id = "count" value = "--" readonly />
             </div>
 
             <br /> 
@@ -45,12 +45,12 @@
                     <tr>
                         <td>
                             <button>
-                                <!-- This block creates a square.-->
+                                <!-- The following block creates a square:-->
                                 <svg 
-                                aria-hidden = "true"
-                                viewBox = "0 0 100 100"
-                                height = "100"
-                                width = "100"
+                                    aria-hidden = "true"
+                                    viewBox = "0 0 100 100"
+                                    height = "100"
+                                    width = "100"
                                 ><path d = "M 10 10 H 90 V 90 H 10 L 10 10" fill = "green" />
                             </svg>
                             </button>
@@ -58,17 +58,51 @@
                         <td>
                             <button>
                                 <svg
-                                aria-hidden="true"
-                                viewBox="0 0 100 100"
-                                height="100"
-                                width="100"
-                                ><path d = "M 10 10 H 90 V 90 H 10 L 10 10" fill = "blue" />
+                                    aria-hidden = "true"
+                                    viewBox = "0 0 100 100"
+                                    height = "100"
+                                    width = "100"
+                                >
+                                    <path d = "M 10 10 H 90 V 90 H 10 L 10 10" fill = "red" />
                                 </svg>     
                             </button>
                         </td>
+                        <tr> <!-- This element will move the blue square underneath the green.-->
+                        <td>
+                            <button>
+                                <svg
+                                    aria-hidden = "true"
+                                    viewBox = "0 0 100 100"
+                                    height = "100"
+                                    width = "100"
+                                >
+                                    <path d = "M 10 10 H 90 V 90 H 10 L 10 10" fill = "yellow" />
+                                </svg>     
+                            </button>
+                        </td>
+                        <td>
+                            <button>
+                                <svg
+                                    aria-hidden = "true"
+                                    viewBox = "0 0 100 100"
+                                    height = "100"
+                                    width = "100"
+                                >
+                                    <path d = "M 10 10 H 90 V 90 H 10 L 10 10" fill = "blue" />
+                                </svg>
+                            </button>
+                        </td>
+                        </tr>
                     </tr>
                 </table>
             </div>
         </main>
+
+        <footer>
+            <hr />
+            <span class = "text-reset">GitHub Account: <a href = "https://github.com/rperbichi">GitHub</a></span>
+            <br />
+            <span class = "text-reset">LinkedIn Account: <a href = "https://www.linkedin.com/in/raul-perbichi/">LinkedIn</a></span>
+        </footer>
     </body>
 </html>
