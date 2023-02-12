@@ -1,12 +1,40 @@
 <!DOCTYPE html>
 <html lang = "en">
-<title>Simon</title>
-    <nav>
-        <menu>
-            <li><a href = "index.html">Home</a></li>
-            <li></li>
-            <li></li>
-            <li></li>
-        </menu>
-    </nav>
+    <head>
+        <meta charset = "UTF-8"/>
+        <meta name = "viewport" content = "width=device-width, initial-scale=1.0" />
+        <title>Simon</title> <!-- This line displays the name on the tab.-->
+    </head>
+    <body>
+        <header>
+            <h1>Simon<sup>&reg</sup></h1>
+            <nav>
+                <h2>Choose an option from the following menu:</h2>
+                <menu>
+                    <li><a href = "index.html">Home</a></li>
+                    <li><a href = "play.html">Play</a></li>
+                    <li><a href = "scores.html">Scores</a></li>
+                    <li><a href = "about.html">About</a></li>
+                </menu>
+            </nav>
+          
+        <!-- <hr /> will create the line that separates the page. -->
+        <!-- CSS can be used to change the characteristics of the line. -->
+            <hr /> 
+        </header> 
+
+        <main>
+            <p>Log in to play:</p>
+            <form method = "get" action = "play.html">
+                <label for = "name">Name:</label>
+                <input type = "text" id = "name" placeholder = "Your name here"/>
+                <button type = "submit">Login</button>
+            </form> 
+        </main>
+
+        <footer>
+            <hr />
+            <span class = "text-reset">Raul Perbichi's GitHub Account: <a href = "https://github.com/rperbichi">GitHub</a></span>
+        </footer>
+    </body>
 </html>
