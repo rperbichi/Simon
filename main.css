@@ -6,7 +6,7 @@ body {
   }
   
   header {
-    flex: 0 50px;
+    flex: 0 160px;
     text-align: center;
   }
   
@@ -15,14 +15,14 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: grey;
+    background-color: rgb(83, 83, 83);
   }
   
   footer {
     justify-content: left;
     text-align: left;
     flex: 0 30px;
-    background-color: aqua;
+    background-color: black;
   }
   
   menu {
@@ -34,7 +34,7 @@ body {
   }
   
   .navbar-brand {
-    padding-left: 0.3em;
+    padding-left: 0.5em;
     border-bottom: solid rgb(182, 182, 182) thin;
   }
   
@@ -63,7 +63,7 @@ body {
   .game {
     background: rgb(0, 0, 0);
     border-radius: 50%;
-    box-shadow: 0 0 20px 5px rgb(69, 69, 69);
+    box-shadow: 0 0 20px 5px rgb(0, 0, 0);
     width: 80vw;
     height: 80vw;
     position: absolute;
@@ -112,10 +112,10 @@ body {
   .controls {
     position: absolute;
     border-radius: 50%;
-    width: 200px;
-    height: 200px;
-    background-color: black;
-    padding: 2em;
+    width: 250px;
+    height: 250px;
+    background-color: rgb(0, 0, 0);
+    padding: 1em;
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -123,7 +123,7 @@ body {
   }
   
   .game-name {
-    font-size: 2em;
+    font-size: 3em;
     font-weight: bold;
     margin-bottom: 0.5em;
   }
@@ -136,8 +136,8 @@ body {
     font-weight: bold;
     color: red;
     cursor: default;
-    width: 50px;
-    height: 30px;
+    width: 100px;
+    height: 40px;
     border-radius: 10px;
     border: solid thin rgb(117, 0, 0);
     background-color: #300;
