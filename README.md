@@ -7,3 +7,4 @@ CS 260
 - The element <span class> allows you to create a hyperlink with a different name.
 - The element button will create an interactive button.
 - It was really nice to see how the different elements interact with each other and how that results in changes for the web page.
+- The link element helps you link the files from different languages.
